@@ -9,6 +9,7 @@ import About from './components/functionalcomponents/About';
 import Login from './components/functionalcomponents/Login';
 import Home from './components/functionalcomponents/Home';
 import Footer from './components/functionalcomponents/Footer';
+import Signup from './components/functionalcomponents/Signup';
 function App() {
   return (
     <div className="App">
@@ -19,6 +20,7 @@ function App() {
         <Route path="/about" element={<About />} ></Route>
         <Route path="/experience" element={<Experience />} ></Route>
         <Route path="/login" element={<Login />} ></Route>
+        <Route path="/Signup" element={<Signup />} ></Route>
       </Routes>
       </BrowserRouter>
       
