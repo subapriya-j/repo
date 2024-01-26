@@ -5,3 +5,6 @@ ol{
     background-color: aqua;
     margin:0;
 }
+.list{
+    text-decoration:none;
+}

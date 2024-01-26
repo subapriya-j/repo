@@ -8,6 +8,7 @@ import Experience from './components/functionalcomponents/Experience';
 import About from './components/functionalcomponents/About';
 import Login from './components/functionalcomponents/Login';
 import Home from './components/functionalcomponents/Home';
+import Footer from './components/functionalcomponents/Footer';
 function App() {
   return (
     <div className="App">
@@ -37,6 +38,9 @@ function App() {
           Learn React
         </a>
       </header>
+      
+        <Footer />
+      
     </div>
   );
 }
