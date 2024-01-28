@@ -27,11 +27,7 @@ const Memo=()=>{
         <h2>The doubled number is{doubleNumber}</h2>
         <button onClick={()=>{updateTheme((prevdark)=>!prevdark)}}>Change Theme</button>
         <h2 style={theme}>The double Number is</h2>
-        <ol>
-                {list.map((val,index)=>(
-                    <li key={index}>{val}</li>
-                ))}
-            </ol>
+      
         </div>
 
     )
