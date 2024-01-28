@@ -10,6 +10,10 @@ import Login from './components/functionalcomponents/Login';
 import Home from './components/functionalcomponents/Home';
 import Footer from './components/functionalcomponents/Footer';
 import Signup from './components/functionalcomponents/Signup';
+import Reference from './components/functionalcomponents/Reference';
+import Callback from './components/functionalcomponents/Callback';
+//import Memo from './components/functionalcomponents/Memo';
+
 function App() {
   return (
     <div className="App">
@@ -21,6 +25,9 @@ function App() {
         <Route path="/experience" element={<Experience />} ></Route>
         <Route path="/login" element={<Login />} ></Route>
         <Route path="/Signup" element={<Signup />} ></Route>
+        <Route path="/useref" element={<Reference />} ></Route>
+        <Route path="/usecallBack" element={<Callback />} ></Route>
+        {/*<Route path="/useMemo" element={<Memo />} ></Route>*/}
       </Routes>
       </BrowserRouter>
       
